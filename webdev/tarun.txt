@@ -1,0 +1,131 @@
+testing
+I thought about all of the possible solutions for solving this challenge and settled on this flow:
+
+User will submit the form, as usual.
+In the form processing PHP, I use cURL to execute a POST transmission to a PHP script on the customer's server.
+The remote script would do a MySQL INSERT query into the customer's private database.
+This solution worked quite well so I thought I'd share it with you. Here's how you execute a POST using the PHP CURL library.
+
+Google
+
+
+fopen php file path
+
+
+About 3,75,000 results (0.53 seconds) 
+Search Results
+PHP: fopen - Manual
+php.net/manual/en/function.fopen.php
+Refer to the specific page for the protocol in use for a list of options which can be set. (e.g. php.ini value user_agent used by the http wrapper). On the Windows platform, be careful to escape any backslashes used in the path to the file, or use forward slashes. <?php $handle = fopen("c:\\folder\\resource.txt", "r"); ?> mode.
+‎File_exists · ‎Fwrite · ‎Fread · ‎Fclose
+People also search for
+php fread
+php fopen permission denied
+php fclose
+fwrite append
+fopen failed to open stream
+php fget
+ 
+Not the answer you're looking for? Browse other questions tagged php filesize stat or ask your own question.
+asked
+
+2 years, 3 months ago
+
+viewed
+
+11,832 times
+
+active
+
+2 years, 3 months ago
+
+FEATURED ON META
+Spring 2018 Community Moderator Election RESULTS
+HOT META POSTS
+4 How does one get multiple Publicist badges at the same time?
+20 Do various job offers on Stack Overflow depend on user reputation? How does…
+5 What can I do about downvotes on old questions?
+Work from anywhere
+Software Engineer (Full Stack Web Engineer)
+Wikimedia Foundation, Inc.San Francisco, CA
+REMOTE
+phpjavascript
+Application Security Engineer
+Wikimedia Foundation, Inc.San Francisco, CA
+REMOTE
+phpjavascript
+Front End Engineer - Angular2+ and Ionic2+
+Modus CreateNo office location
+$38K - $67KREMOTE
+javascriptangularjs
+Senior/Lead PHP Engineer
+Compucorp Ltd.No office location
+£15K - £28KREMOTE
+phpjavascript
+Work remotely - from home or wherever you choose.
+
+Browse remote jobs
+Related
+2782
+How can I prevent SQL injection in PHP?
+943
+PHP and Enumerations
+1853
+PHP: Delete an element from an array
+1336
+Convert HTML + CSS to PDF with PHP?
+1162
+startsWith() and endsWith() functions in PHP
+1829
+How do you parse and process HTML/XML in PHP?
+3625
+Reference — What does this symbol mean in PHP?
+2629
+How do I check if a string contains a specific word?
+1560
+How does PHP 'foreach' actually work?
+2109
+Why shouldn't I use mysql_* functions in PHP?
+Hot Network Questions
+How to make the Earth red again?
+Did The Lancet publish an account of a woman who did not age?
+Writing a Super Intelligent AI
+How can I get a recursion `f[f[f[x],x],x]` n times with minimal amount of code
+How do I answer a question about not enjoying a party without revealing sensitive information
+How do I deal gracefully with coworkers accidentally misgendering me?
+Regex to split a comma separated css class names string into array
+Read private data of smart contracts from Blockchain
+Non-distributive fields?
+more hot questions
+ question feed
+STACK OVERFLOW
+Questions
+Jobs
+Developer Jobs Directory
+Salary Calculator
+Help
+Mobile
+STACK OVERFLOW
+BUSINESS
+Talent
+Ads
+Enterprise
+COMPANY
+About
+Press
+Work Here
+Legal
+Privacy Policy
+Contact Us
+STACK EXCHANGE
+NETWORK
+Technology
+Life / Arts
+Culture / Recreation
+Science
+Other
+Blog
+Facebook
+Twitter
+LinkedIn
+site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.6.29777
